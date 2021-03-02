@@ -1,0 +1,273 @@
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+video{
+  border-radius: 10px;
+}
+
+.customHeading{
+  
+    font-size:5vw;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+.customLeftP{
+    font-size:3vw;
+    text-align: left;
+}
+
+.search-background{
+    background: url('images/dust_back.png');
+}
+
+.backgroundWhite {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-family: 'Merriweather', serif;
+    
+}
+
+.backgroundWhiteBorder {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border-radius:2px solid #ddd;
+    font-family: 'Merriweather', serif;
+}
+
+.backgroundWhiteBorder10Padding {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 2px solid #ddd;
+    margin-bottom: 30px;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+.navbar a.active {
+  background-color: red;
+  color: white;
+}
+
+  .navbar {
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
+
+
+
+  :target {
+    animation: highlight 1s ease;
+    transform: translateX(20px);
+  }
+  @keyframes highlight {
+    0% { border-left-color: red; }
+    100% { border-left-color: black; }
+  }
+  section > div {
+    border-left: 40px solid black;
+    padding: 10px;
+    transition: all 0.5s ease;
+    padding-right: 80px;
+    margin-left: -20px;
+    font-family: 'Merriweather', serif;
+  }
+
+  /*
+ * Footer
+ */
+.blog-footer {
+  margin-left: -30px; margin-right: -30px; 
+  border-radius: 10px;
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #000000;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.cus {
+  border-left: 0px ;
+  padding: 10px;
+  transition: all 0.5s ease;
+  padding-right: 80px;
+  margin-left: -20px;
+  font-family: 'Merriweather', serif;
+}
+
+li{
+  text-align: left;
+
+}
+
+.indexPageP{
+  text-align: left;
+  margin-left: 40px;
+}
+
+.starP{
+  text-align: center;
+  font-size:2vw;
+}
+
+.indexSecondImage{
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: -5px; /* Some padding */
+
+  display: inline-block;
+ 
+left: 40px;
+  position: relative;
+ 
+  width: 180px;
+  height: 90px;
+  
+}
+
+
+.indexFirstImage{
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: -5px; /* Some padding */
+
+  
+  display: inline-block;
+
+  position: relative;
+ left: 40px;
+  width: 180px;
+  height: 90px;
+  
+}
+
+
+
+.indexFirstImageText{
+  
+  position: relative;
+  left: 100;
+  
+  
+}
+
+
+
+
+    #myBtn {
+        position: fixed;
+        top: 10px;
+        float: right;
+        right: 18.5%;
+        left: 77.25%;
+        font-size: 2rem;
+        
+
+        background-color: black; /* Green */
+        border-radius: 20%;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        
+        font-size: 16px;
+        margin: 1px 2px;
+        cursor: pointer;
+
+    }
+/*On Hover Color Change*/
+    #myBtn:hover {
+        background-color: red;
+    }
+
+
+
+
+
+  
+
+
+
+
+
+ 
+
